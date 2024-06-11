@@ -123,7 +123,14 @@ nav button{
 }
 
 .btn-red-sm{
-    font-size: 14px;     font-weight: 500;     background-color: red;     color: white;     cursor: pointer;     margin-left: 20px;     padding: 7px 16px;     border: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: red;
+    color: white; 
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 7px 16px;
+    border: none;
 }
 
 .hero-buttons{
@@ -293,7 +300,124 @@ nav button{
     border: 1px solid rgba(255, 255, 255, 0.5);
 
 }
-@media only screen and (min-width:600px) {
-    
-    
+@media only screen and (max-width:600px) {
+    .main{
+        height: 70vh;
+    }
+    .main .box{
+        height: 70vh;
+    }
+    nav{
+        max-width: 85vw;
+    }
+    nav img{
+        width: 90px;
+    }
+    .hero{
+        gap: 5px;
+
+    }
+    .hero> :nth-child(1){
+        font-size: 34px;
+    }
+    .hero> :nth-child(2){
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .hero> :nth-child(3){
+        font-size: 18px;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .seperation{
+        height: 8px;
+    }
+    .btn{
+        height: 30px;
+        width: 60px;
+        bottom: 1px;
+        padding: 1px 2px;
+        left: 5px;
+        font-size: 0;
+        
+    }
+    .btn-red-sm{
+        height: 30px;
+        width: 80px;
+        bottom: 5px;
+        font-size: 15px;
+        margin-left: 3px;
+    }
+    .btn-red{
+        width: 50vw;
+        height: 50px;
+        font-size: 20px;
+    }
+    .main input{
+        display: none;
+    }
+    .first{
+
+    }
+    .secimg{
+
+    }
+    .secimg img{
+
+    }
+    .secimg video{
+
+    }
+/* -----------------css for page 4---------------------------- */
+    .first3{
+
+    }
+    .secimg1{
+
+    }
+    .secimg1 img{
+
+    }
+    .secimg1 video{
+
+    }
+    .first> div :first-child{
+
+    }
+    .first> div :nth-child(2){
+
+    }
+    .ico{
+
+    }
+    .pg2{
+
+    }
+    .text{
+
+    }
+    .text1{
+
+    }
+    .faq{
+
+    }
+    .faq h2{
+
+    }
+    .faqbox:hover{
+        
+    }
+    .faqbox{
+            
+    }
+    .hero1{
+
+    }
+    .hero1.txt{
+
+    }
+    .hero1 input{
+
+    }
 } 
